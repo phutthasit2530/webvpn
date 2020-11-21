@@ -1,5 +1,5 @@
 #!/bin/bash
-#script by jiraphat yuenying for debian9
+#script by อิคคิวซัง for debian9
 #install lamp
 
 printf 'Set your Database password: '
@@ -33,19 +33,19 @@ rm my.sql
 apt install php libapache2-mod-php php-mysql php-curl -y
 systemctl restart apache2
 
-wget -O /etc/apache2/mods-enabled/dir.conf 'https://raw.githubusercontent.com/jiraphaty/auto-script-vpn/master/openvpnweb/dir.conf'
+wget -O /etc/apache2/mods-enabled/dir.conf 'https://raw.githubusercontent.com/phutthasit2530/webvpn/master/openvpnweb/dir.conf'
 
 sudo a2enmod rewrite
 systemctl restart apache2
 
-wget -O /etc/apache2/sites-available/000-default.conf 'https://raw.githubusercontent.com/jiraphaty/auto-script-vpn/master/openvpnweb/000-default.conf'
+wget -O /etc/apache2/sites-available/000-default.conf 'https://raw.githubusercontent.com/phutthasit2530/webvpn/master/openvpnweb/000-default.conf'
 
 systemctl restart apache2
 
 rm -Rf /var/www/html
 mkdir /var/www/html
 
-wget -O /var/www/html/htdocs.tar 'https://github.com/jiraphaty/auto-script-vpn/raw/master/openvpnweb/htdocs_openvpn_final.tar'
+wget -O /var/www/html/htdocs.tar 'https://github.com/phutthasit2530/webvpn/raw/master/openvpnweb/htdocs_openvpn_final.tar'
 
 cd /var/www/html/
 
@@ -55,7 +55,7 @@ rm htdocs.tar
 
 MYIP=$(wget -qO- ipv4.icanhazip.com);
 printf '###############################\n'
-printf '# Script by Jiraphat Yuenying #\n'
+printf '# Script by อิคคิวซัง #\n'
 printf '#                             #\n'
 printf '#    '$MYIP'/install   #\n'
 printf '###############################\n\n'
