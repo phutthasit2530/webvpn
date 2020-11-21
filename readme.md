@@ -1,28 +1,17 @@
-<h1>Script by Jiraphat Yuenying</h1>
+<h1>Script by อิคคิวซัง</h1>
 
 <p>***************************</p>
-<h2>ฝากกดติดตามช่องยูทูปด้วยครับ</h2>
-<br>
-https://www.youtube.com/c/TARCHII
-<p>***************************</p>
-มีปัญหา คอมเมนท์ใต้คลิป หรือ เข้ามาสอบถามได้ในกลุ่มเฟสบุ้คเลยนะครับ (บางคนอินบ็อกมาแล้วไม่ขึ้น)
-<p>***************************</p>
-https://www.facebook.com/groups/284652862468386/
-
-ฝากกดติดตามช่องด้วยครับ จะได้ไม่พลาดสคริปต์ใหม่ ๆ
-เดี๋ยวหามาแจกเรื่อยๆครับ
-<p>***************************</p>
-<h2>สคริปท์ติดตั้ง openvpn</h2>
+<
 <p>รันคำสั่งตามนี้</p>
 <div>
     <ul>
-        <li>wget https://raw.githubusercontent.com/jiraphaty/auto-script-vpn/master/openvpn-auto-ub14.sh</li>
+        <li>wget https://raw.githubusercontent.com/phutthasit2530/webvpn/master/openvpn-auto-ub14.sh</li>
         <li>chmod +x openvpn-auto-ub14.sh</li>
         <li>./openvpn-auto-ub14.sh</li>
         <li>reboot หนึ่งรอบ</li>
     </ul>
 </div>
-<h2>สคริปท์ติดตั้ง เว็บสมัคร<br> https://github.com/jiraphaty/auto-script-vpn/blob/master/openvpnweb/ </h2>
+<h2>สคริปท์ติดตั้ง เว็บสมัคร<br> https://github.com/phutthasit2530/webvpn/blob/master/openvpnweb/ </h2>
 <hr>
 <h2>วิธีเปิดใช้งาน Login ด้วยรูท</h2>
  <ul>
@@ -41,7 +30,7 @@ https://www.facebook.com/groups/284652862468386/
 <ul>
     <li>ใช้ auto-script รันสคริปต์ตามนี้ (เลือกตามระบบ)</li>
     <li>ตัวอย่าง ระบบ Ubuntu 14.04 </li>
-    <li>wget https://raw.githubusercontent.com/jiraphaty/auto-script-vpn/master/ssh_ub14.sh</li>
+    <li>wget https://raw.githubusercontent.com/phutthasit2530/webvpn/master/ssh_ub14.sh</li>
     <li>chmod +x ssh_ub14.sh</li>
     <li>./ssh_ub14.sh</li>
     <li>ตั้งพาสโดยใช้คำสั่ง passwd root</li>
